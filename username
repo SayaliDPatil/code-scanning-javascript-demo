@@ -11,7 +11,7 @@ public class User_Authentication
         password = snextLine()
         if(username.equals("user") && password.equals("user"))
         {
-            System.out.println("Authentication Successful");
+            System.out.println("Authentication Successful")
         }
         else
         {
