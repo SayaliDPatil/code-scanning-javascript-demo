@@ -8,7 +8,7 @@ public class User_Authentication
         System.out.print("Enter username:");//username:user
         username = s.nextLine()
         System.out.print("Enter password:");//password:user
-        password = nextLine()
+        password = snextLine()
         if(username.equals("user") && password.equals("user"))
         {
             System.out.println("Authentication Successful");
